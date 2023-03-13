@@ -61,6 +61,8 @@ void gameplay(sfRenderWindow *window, sfEvent event, int *current_scene)
     // Your code goes here
 }
 
+
+
 // Main function to handle window opening, "global" variables, etc...
 int main(void)
 {
@@ -71,7 +73,7 @@ int main(void)
     sfEvent event;
     int current_scene = 0;
 
-    // Create your function pointer here                         0      1         2        ...
+    // Create your function pointer here
 
     // Array of function pointers
     while (sfRenderWindow_isOpen(window))
