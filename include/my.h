@@ -11,7 +11,6 @@
 // C
 #include <stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
 
 // CSFML
 #include <SFML/Audio.h>
